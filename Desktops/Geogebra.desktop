@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility
+Name=Geogebra
+Icon=/opt/Icons/geogebra.png
+Exec=geogebra-classic

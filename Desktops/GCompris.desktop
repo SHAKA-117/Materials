@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility
+Name=GCompris
+Icon=/opt/Icons/gcompris.png
+Exec=/opt/GCompris/gcompris.sh
