@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility
+Name=Translate_shell
+Icon=/opt/Icons/translate-shell.png
+Exec=/opt/Translate_shell/traductor.sh

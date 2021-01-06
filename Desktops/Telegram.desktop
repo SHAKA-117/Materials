@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility
+Name=Telegram
+Icon=/opt/Icons/telegram-icon.png
+Exec=/opt/Telegram/Telegram
