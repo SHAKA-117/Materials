@@ -8,14 +8,14 @@ ID="-424794087"
 URL="https://api.telegram.org/bot$TOKEN/sendMessage"
 
 case $dias in
-    "lunes" | "monday")
+    "lunes" | "Monday")
         while IFS=$ read -r HORAS ACTIVIDAD; do
             if [ "$HORAS" == "$hrs" ]; then
                 MENSAJE="Son las $hrs Hora de $ACTIVIDAD" 
             fi
         done < Lunes.txt
     ;;
-    "martes" | "tuesday")
+    "martes" | "Tuesday")
         while IFS=$ read -r HORAS ACTIVIDAD; do
             if [ "$HORAS" == "$hrs" ]; then
             echo "entre"
@@ -23,21 +23,22 @@ case $dias in
             fi
         done < Martes.txt
     ;;
-    "miercoles" | "wednesday")
+    "miercoles" | "Wednesday")
         while IFS=$ read -r HORAS ACTIVIDAD; do
             if [ "$HORAS" == "$hrs" ]; then
                 MENSAJE="Son las $hrs Hora de $ACTIVIDAD" 
             fi
         done < Miercoles.txt
     ;;
-    "jueves" | "thursday")
+    "jueves" | "Thursday")
         while IFS=$ read -r HORAS ACTIVIDAD; do
             if [ "$HORAS" == "$hrs" ]; then
+                echo $HORAS $ACTIVIDAD
                 MENSAJE="Son las $hrs Hora de $ACTIVIDAD" 
             fi
         done < Jueves.txt
     ;;
-    "viernes" | "friday")
+    "viernes" | "Friday")
         while IFS=$ read -r HORAS ACTIVIDAD; do
             if [ "$HORAS" == "$hrs" ]; then
                 MENSAJE="Son las $hrs Hora de $ACTIVIDAD" 
