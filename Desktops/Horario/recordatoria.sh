@@ -2,8 +2,8 @@
 
 hrs=$(date +"%H:%M")
 dias=$(date +"%A")
-TOKEN="954962311:AAHzwXYXnE1EU6Ggdnc8vDMh_sJMyeJI5B0"
-ID="754199278"
+TOKEN="1381048140:AAGnpVO1m-Pw1Op25Q8AscmY3gnC2jT9Yv4"
+ID="-424794087"
 
 URL="https://api.telegram.org/bot$TOKEN/sendMessage"
 
