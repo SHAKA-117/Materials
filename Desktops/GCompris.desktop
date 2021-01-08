@@ -3,4 +3,4 @@ Type=Application
 Categories=Utility
 Name=GCompris
 Icon=/opt/Icons/gcompris.png
-Exec=/opt/GCompris/gcompris.sh
+Exec=/opt/gcompris-qt-1.0-Linux/bin/gcompris-qt.sh
