@@ -3,4 +3,4 @@ Type=Application
 Categories=Utility
 Name=Translate_shell
 Icon=/opt/Icons/translate-shell.png
-Exec=/opt/Translate_shell/traductor.sh
+Exec=xfce4-terminal -e /opt/Translate_shell/./traductor.sh
